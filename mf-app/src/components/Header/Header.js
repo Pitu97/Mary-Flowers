@@ -6,9 +6,9 @@ function Header() {
         <h1>Mary Flowers</h1>
         <nav>
             <ul>
-                <li>Decoraciones</li>
-                <li>Nosotros</li>
-                <li>Contacto</li>
+                <li><a href='#'>Decoraciones</a></li>
+                <li><a href='#'>Nosotros</a></li>
+                <li><a href='#'>Contacto</a></li>
             </ul>
         </nav>
     </header>
