@@ -1,6 +1,8 @@
 header {
     background-color: aqua;
     display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
 
 header h1 {

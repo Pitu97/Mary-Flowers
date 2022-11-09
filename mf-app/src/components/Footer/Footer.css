@@ -3,4 +3,6 @@ footer {
     background-color: aqua;
     display: flex;
     justify-content: space-around;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
 }
