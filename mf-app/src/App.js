@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Decoraciones from './components/Decoraciones/Decoraciones';
 import Footer from './components/Footer/Footer';
@@ -8,15 +9,19 @@ import Nosotros from './components/Nosotros/Nosotros';
 
 function App() {
   return (
-    <>
+  <>
     <Header />
-    <div className='App'>  
-      <Home />
-      <Decoraciones />
-      <Nosotros />
+    <div className='App'>
+      <Routes>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/decoraciones' element={<Decoraciones />}></Route>
+        <Route path='/nosotros' element={<Nosotros />}></Route>
+      </Routes>
     </div>
-    <Footer />
-    </>
+    <div id='footer'>
+      <Footer />
+    </div>
+  </>
   );
 }
 

@@ -1,14 +1,15 @@
 import './Header.css';
+import { Link, NavLink } from 'react-router-dom';
 
 function Header() {
   return (
     <header>
-        <h1>Mary Flowers</h1>
+        <Link to='/'><h1>Mary Flowers</h1></Link>
         <nav>
             <ul>
-                <li><a href='#'>Decoraciones</a></li>
-                <li><a href='#'>Nosotros</a></li>
-                <li><a href='#'>Contacto</a></li>
+                <li><NavLink to='/decoraciones'>Decoraciones</NavLink></li>
+                <li><NavLink to='/nosotros'>Nosotros</NavLink></li>
+                <li><a href='#footer'>Contacto</a></li>
             </ul>
         </nav>
     </header>

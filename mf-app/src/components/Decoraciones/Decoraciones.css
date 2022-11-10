@@ -2,3 +2,16 @@
     font-size: 50px;
     padding: 25px
 }
+
+.imagenes {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.deco {
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    margin-bottom: 20px;
+}

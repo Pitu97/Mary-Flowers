@@ -6,3 +6,18 @@ footer {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
+
+footer h3 {
+    padding: 15px;
+}
+
+.contacto {
+    width: 150px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.contacto p {
+    margin: 0;
+}
