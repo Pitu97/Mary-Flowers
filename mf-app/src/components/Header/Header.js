@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom';
 function Header() {
   return (
     <header>
-        <Link to='/'><h1>Mary Flowers</h1></Link>
+        <h1 className='logo'><Link to='/'>Mary Flowers</Link></h1>
         <nav>
             <ul>
                 <li><NavLink to='/decoraciones'>Decoraciones</NavLink></li>
