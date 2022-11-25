@@ -9,9 +9,9 @@ function Footer() {
             <p>+5493704607736</p>
             <p>+5493704689467</p></li>
             <li><p>Instagram</p>
-            <p>@mary.flowers.7921</p></li>
+            <a href='https://www.instagram.com/mary.flowers.7921/' target="new">@mary.flowers.7921</a></li>
             <li><p>Facebook</p>
-            <p>Mary Flowers</p></li>
+            <a href='https://www.facebook.com/mary.flowers.7921' target="new">Mary Flowers</a></li>
         </ul>
     </footer>
   );

@@ -3,32 +3,34 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function Home() {
   return (
-   <div className='home'>
-    <h1>Bienvenidos</h1>
-    <div className='carousel'>
-    <Carousel fade>
-      <Carousel.Item>
-      <img
-          className="d-block w-100"
-          src="img/deco1.png"
-          alt="First slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-      <img
-          className="d-block w-100"
-          src="img/deco2.png"
-          alt="Second slide"
-        />
-      </Carousel.Item>
-      <Carousel.Item>
-      <img
-          className="d-block w-100"
-          src="img/deco3.png"
-          alt="Third slide"
-        />
-      </Carousel.Item>
-    </Carousel>
+  <div className='home'>
+    <div className="welcome">
+      <h1>Bienvenidos</h1>
+      
+        <Carousel fade>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="img/deco1.png"
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="img/deco2.png"
+              alt="Second slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="img/deco3.png"
+              alt="Third slide"
+            />
+          </Carousel.Item>
+        </Carousel>
+      
     </div>
     <div className='info'>
       <h3>Todo lo que buscás para tu fiesta...</h3>

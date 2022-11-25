@@ -22,3 +22,12 @@ footer h3 {
     margin: 0;
     padding-top: 3px;
 }
+
+.contacto a {
+    text-decoration: none;
+    color: black;
+}
+
+.contacto a:hover {
+    color: pink;
+}
