@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Mary-Flowers/static/css/main.d17efa9b.css",
+    "main.js": "/Mary-Flowers/static/js/main.cd36da9d.js",
+    "static/js/787.4c03fb63.chunk.js": "/Mary-Flowers/static/js/787.4c03fb63.chunk.js",
+    "index.html": "/Mary-Flowers/index.html",
+    "main.d17efa9b.css.map": "/Mary-Flowers/static/css/main.d17efa9b.css.map",
+    "main.cd36da9d.js.map": "/Mary-Flowers/static/js/main.cd36da9d.js.map",
+    "787.4c03fb63.chunk.js.map": "/Mary-Flowers/static/js/787.4c03fb63.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d17efa9b.css",
+    "static/js/main.cd36da9d.js"
+  ]
+}
