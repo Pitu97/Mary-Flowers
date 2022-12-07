@@ -8,7 +8,7 @@ function Header() {
   return (
     <Navbar expand="md" sticky="top" id="header">
       <Container>
-        <Navbar.Brand id='logo'><Link to='/'>Mary Flowers</Link></Navbar.Brand>
+        <Navbar.Brand id='logo'><Link to='/Mary-Flowers'>Mary Flowers</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
       </Container>
       <Container></Container>
