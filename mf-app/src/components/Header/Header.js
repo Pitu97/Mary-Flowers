@@ -20,7 +20,6 @@ function Header() {
           <Nav className="me-auto">
             <Nav.Link><NavLink to='/decoraciones'>Decoraciones</NavLink></Nav.Link>
             <Nav.Link><NavLink to='/nosotros'>Nosotros</NavLink></Nav.Link>
-            <Nav.Link href="#footer">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
